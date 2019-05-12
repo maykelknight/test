@@ -1,0 +1,22 @@
+.banner {
+  background-image: url("../img/heading2.jpg");
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .banner .banner-text {
+    transform: translateY(35vh); }
+    .banner .banner-text__label {
+      font-size: 50px; }
+    .banner .banner-text__description {
+      font-size: 22px;
+      color: #aaaaaa; }
+
+@media screen and (max-width: 768px) {
+  .banner {
+    background-attachment: scroll; }
+    .banner .banner-text {
+      transform: translateY(40vh);
+      padding: 0 20px; } }

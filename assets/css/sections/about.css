@@ -1,0 +1,29 @@
+.about {
+  background: url("../img/about-bckg.jpg");
+  background-repeat: no-repeat;
+  height: 500px;
+  position: relative;
+  display: block; }
+  .about .box-content {
+    border-top: 5px solid turquoise;
+    height: 100%;
+    width: 600px;
+    background: #fff;
+    opacity: 0.9;
+    position: absolute;
+    right: 200px; }
+    .about .box-content__heading {
+      margin: 20px 0 10px 10px; }
+    .about .box-content__inner-box {
+      display: flex; }
+      .about .box-content__inner-box .left {
+        background: #c5c5c5;
+        height: 40px;
+        padding: 10px;
+        white-space: nowrap; }
+      .about .box-content__inner-box .right {
+        background: turquoise;
+        height: 40px;
+        width: 100%; }
+    .about .box-content .text {
+      padding: 10px; }

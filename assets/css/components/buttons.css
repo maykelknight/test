@@ -1,0 +1,28 @@
+.primary-btn {
+  color: #fff;
+  padding: 10px 52px;
+  background-color: #25b7a4;
+  overflow: hidden;
+  border-radius: 40px;
+  font-size: 15px;
+  font-weight: 600;
+  display: inline-block;
+  border: none;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  text-align: center;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  outline: none;
+  text-decoration: none; }
+  .primary-btn:hover {
+    background: none;
+    color: #25b7a4;
+    border: 1px solid #25b7a4; }

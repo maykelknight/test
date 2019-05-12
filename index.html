@@ -1,14 +1,296 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>MaykelSpotify</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-	<h2>TEST page</h2>
-	<p><strong>strong</strong></p>
 
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SZYBKI START Z BRACKETS</title>
+    <meta name="description" content="Interaktywny poradnik szybkiego startu dla Brackets.">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  minimum-scale=1">
+
+</head>
+
+<body>
+
+<section class="banner" id="banner">
+    <!--navbar-->
+    <nav class="nav-wrapper">
+        <div class="nav container">
+            <input type="checkbox" id="hamburger" class="hamburger-checkbox hidden">
+            <label for="hamburger" class="hamburger-toggle">
+                <i></i>
+                <i></i>
+                <i></i>
+            </label>
+            <div class="nav-logo">MC</div>
+            <div class="nav-btns-wrapper">
+                <ul class="nav-btns">
+                    <li class="nav-btn">
+                        <a href="#banner">Home</a>
+                    </li>
+                    <li class="nav-btn">
+                        <a href="#resume">Życiorys</a>
+                    </li>
+                    <li class="nav-btn">
+                        <a href="#experience">Umiejętności</a>
+                    </li>
+                    <li class="nav-btn">
+                        <a href="#skills">Skille</a>
+                    </li>
+                    <li class="nav-btn">
+                        <a href="#showcase">Showcase</a>
+                    </li>
+                    <!--<li class="nav-btn">-->
+                    <!--<a href="#contact">Kontakt</a>-->
+                    <!--</li>-->
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container banner-text">
+        <p class="banner-text__label is-size-2-mobile">MICHAŁ CZAPKOWICZ</p>
+        <p class="banner-text__description">Frontend developer</p>
+        <button class="primary-btn mt50">Popracujmy razem</button>
+    </div>
+</section>
+
+
+<!--<section class="about section">-->
+<!--<h2 class="section-head">O mnie</h2>-->
+<!--<div class="columns">-->
+<!--<div class="column is-two-thirds">-->
+<!--<p>-->
+<!--Jestem front end developerem, zagadnieniami związanymi z grafiką i tworzeniem stron internetowych interesuje się od kiedy pamiętam.-->
+<!--Swoją pierwszą prostą stronę stworzyłem w szóstej klasie podstawowej i była to strona oparta na tabelkach, w czasach świetności-->
+<!--Internet Explorer’a. Od tego czasu bardzo wiele się zmieniło ale moja ogramna pasja do webdevelopmentu pozostała.-->
+<!--Każdą wolną chwilę poświęcam na ciągły rozwój i ulepszanie własnych umiejętności. Ciągle poszukuje nowych technologii, które z-->
+<!--przyjemnością poznaje.-->
+<!--<br> <br>-->
+<!--Już w trakcie nauki w technikum informatycznym wykonywałem pierwsze zlecenia jako freelancer, a w trakcie studiów znalazłem pracę,-->
+<!--gdzie mam okazję tworzyć rozwiązania dla różnych klientów przy użyciu nowych technologii takich jak Angular, Vue czy Nodejs.-->
+<!--</p>-->
+<!--</div>-->
+<!--<div class="column">-->
+<!--&lt;!&ndash;<img src="assets/img/foto1.jpg">&ndash;&gt;-->
+<!--</div>-->
+<!--</div>-->
+<!--</section>-->
+
+<section class="resume section" id="resume">
+    <h2 class="section-head">Życiorys</h2>
+
+    <div class="divider"></div>
+
+    <div class="timeline">
+        <div class="title-box-wrapper">
+            <div class="title-box">
+                DOŚWIADCZENIE
+            </div>
+            <div class="title-icon">
+                <img src="assets/img/ico-box.png">
+            </div>
+        </div>
+        <ul>
+            <li>
+                <div class="content">
+                    <h3>SOFTWARE DEVELOPER</h3>
+                    <p class="time">Nonstop 10.11.2012</p>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <h3>FRONTEND DEVELOPER</h3>
+                    <p class="time">Nonstop 10.11.2016</p>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <div class="content">
+                        <h3>FREELANCER</h3>
+                        <p class="time">Nonstop 10.11.2016</p>
+                    </div>
+                </div>
+            </li>
+            <div style="clear: both"></div>
+        </ul>
+    </div>
+
+    <div class="timeline education">
+        <div class="title-box-wrapper">
+            <div class="title-box">
+                WYKSZTAŁCENIE
+            </div>
+            <div class="title-icon">
+                <img src="assets/img/ico-school.png">
+            </div>
+        </div>
+        <ul>
+            <li>
+                <div class="content">
+                    <h3>SOFTWARE DEVELOPER</h3>
+                    <p class="time">Nonstop 10.11.2012</p>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <h3>FRONTEND DEVELOPER</h3>
+                    <p class="time">Nonstop 10.11.2016</p>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <div class="content">
+                        <h3>FREELANCER</h3>
+                        <p class="time">Nonstop 10.11.2016</p>
+                    </div>
+                </div>
+            </li>
+
+            <div style="clear: both"></div>
+
+            <div class="title-box-wrapper">
+                <div class="title-icon plant">
+                    <img src="assets/img/ico-plant.png">
+                </div>
+            </div>
+        </ul>
+    </div>
+</section>
+
+<section class="experience section" id="experience">
+    <p>
+        Pierwsze doświadczenie komercyjne zyskałem tworząc jako frelancer strony typu landing page dla prywatnych klientów. Pozwoliło mi to na wykorzystanie mojej wiedzy na temat HTML, CSS i
+        javascript w praktycznych projektach.
+        <br><br>
+        Obecnie od prawie trzech lat pracuje w firmie Nonstop jako frontend developer. Wspomniane stanowisko umożliwiło mi wzięcie udziału w wielu ciekawych projektach dla klientów z rynku polskiego i
+        zagranicznego. Miałem okazję tworzyć rozwiązania zarówno dla startupów, jak i dużych firm takich jak UPC, Grand Thornton czy Vectra. W swojej pracy do budowania aplikacji wykorzystuje głównie
+        frameworki Vue.js oraz Angular. Miałem również okację tworzyć projekt z wykorzystaniem Node.js oraz biblioteki React.
+        <br>
+        Cały czas szukam okazji do poznanawiania nowych technologi i wykorzystywania ich praktycznych projektach.
+        <br><br>
+        Zawsze byłem zainteresowany żeby nauczyć się więcej i absorbowałem wiedzę różnych źródeł.
+        Technologia, w której robię projekt nie ma dla mnie większego znaczenia, ponieważ uwielbiam poznawiać nowe technologie i szybko się uczę. Technologie, których nie znam nie są dla mnie
+        problemem ponieważ
+    </p>
+</section>
+
+<section class="skills section" id="skills">
+
+    <h2 class="section-head">Skille</h2>
+    <div class="divider"></div>
+    <div class="skills-wrapper">
+
+        <div class="skill skill--left">
+            <img class="skill__picture" src="assets/img/skills1.jpg"/>
+            <div class="skill__description">
+                <h3 class="skill__description__text-heading">WSPÓŁCZESNE TECHNOLOGIE</h3>
+                <p>Codziennie korzystam z HTML/CSS i JavaScript oraz Sass.
+                    Wiem jak stworzyć dobrą strukturę aplikacji, znam dobre praktykki programistyczne, dużą uwagę przykładam do wydajności i jakości tworzonego kodu.
+                </p>
+            </div>
+        </div>
+
+        <div class="skill skill--right">
+            <img class="skill__picture" src="assets/img/skills2.jpg"/>
+            <div class="skill__description">
+                <h3 class="skill__description__text-heading">POPULARNE FRAMEWORKI</h3>
+                <p>W projektach korzystam z Vue oraz Angulara. Miałęm okazję migrować aplikacje z starego do nowego. Korzysatnie z tych framworków nie stanowi dla mnie problemu.</p>
+            </div>
+        </div>
+
+        <div class="skill skill--left">
+            <img class="skill__picture" src="assets/img/skills3.jpg"/>
+            <div class="skill__description">
+                <h3 class="skill__description__text-heading">OBRÓBKA GRAFIKI</h3>
+                <p>Moją cyfrową przygodę zaczynałem od tworzenia grafik przy wykorzystaniu programu Adobe Photoshop,
+                    więc sprawnie z niego korzystam podczas projektowania, cięcia layoutów i dopasowywania grafik na stronę.
+                </p>
+            </div>
+        </div>
+
+        <div class="skill skill--right">
+            <img class="skill__picture" src="assets/img/skills4.jpg"/>
+            <div class="skill__description">
+                <h3 class="skill__description__text-heading">KOMPLEKSOWE ROZWIĄZANIA</h3>
+                <p>Ze wsględy na to, że lubie tworzyć gotowe rozwiązania, miałem okazję tworzyć mniej zaawansowane projekty z wykorzystaniem technologii backendowych (głownie Node.js)
+                    oraz relacyjnych baz danych, posiadam również wiedzę z zakresu SQL’a.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="about" id="about">
+    <div class="box-content">
+        <h3 class="box-content__heading">O MNIE</h3>
+        <p class="text">
+            Jestem front end developerem, zagadnieniami związanymi z grafiką i tworzeniem stron internetowych interesuje się od kiedy pamiętam.
+            Swoją pierwszą prostą stronę stworzyłem w szóstej klasie podstawowej i była to strona oparta na tabelkach, w czasach świetności
+            Internet Explorer’a. Od tego czasu bardzo wiele się zmieniło ale moja ogramna pasja do webdevelopmentu pozostała.
+            Każdą wolną chwilę poświęcam na ciągły rozwój i ulepszanie własnych umiejętności. Ciągle poszukuje nowych technologii, które z
+            przyjemnością poznaje.
+            <br> <br>
+            Już w trakcie nauki w technikum informatycznym wykonywałem pierwsze zlecenia jako freelancer, a w trakcie studiów znalazłem pracę,
+            gdzie mam okazję tworzyć rozwiązania dla różnych klientów przy użyciu nowych technologii takich jak Angular, Vue czy Nodejs.
+        </p>
+    </div>
+</section>
+
+<section class="section showcase" id="showcase">
+
+    <h2 class="section-head">Showcase</h2>
+    <div class="divider"></div>
+    <div class="work-list">
+
+        <div class="single-work">
+            <img class="image" src="assets/img/showcase1.jpg">
+            <div class="description">
+                <div class="description__text">
+                    <h4>Tytuł</h4>
+                    <p>Testowy opis</p>
+                </div>
+                <a href="showcase.html" class="primary-btn description__btn">Zobacz</a>
+            </div>
+        </div>
+
+        <div class="single-work">
+            <img class="image" src="assets/img/showcase2.jpg">
+            <div class="description">
+                <div class="description__text">
+                    <h4>Tytuł</h4>
+                    <p>Testowy opis</p>
+                </div>
+                <button class="primary-btn description__btn">Zobacz</button>
+            </div>
+        </div>
+
+        <div class="single-work">
+            <img class="image" src="assets/img/showcase3a.jpg">
+            <div class="description">
+                <div class="description__text">
+                    <h4>Tytuł</h4>
+                    <p>Testowy opis</p>
+                </div>
+                <button class="primary-btn description__btn">Zobacz</button>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!--<footer>-->
+<!--Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi beatae commodi dolore est mollitia nemo, nulla quae quibusdam quis quo sunt, vel, veritatis. Dolorum id iste iure nobis odit veritatis.-->
+<!--</footer>-->
+
+<script src="assets/js/main.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
 </body>
 </html>

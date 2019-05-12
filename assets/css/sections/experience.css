@@ -1,0 +1,97 @@
+.experience .timeline {
+  position: relative;
+  margin: 0 auto;
+  padding: 40px 0;
+  width: 1000px; }
+  .experience .timeline:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background: #c5c5c5; }
+  .experience .timeline.education {
+    padding: 0; }
+  .experience .timeline .title-box-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; }
+    .experience .timeline .title-box-wrapper .title-box {
+      background: #ccc;
+      display: inline-block;
+      padding: 5px 20px;
+      margin-bottom: 60px;
+      z-index: 2; }
+    .experience .timeline .title-box-wrapper .title-icon {
+      z-index: 2;
+      width: 36px;
+      height: 36px;
+      margin-bottom: 60px; }
+      .experience .timeline .title-box-wrapper .title-icon.plant {
+        margin-bottom: 0;
+        margin-top: 50px; }
+  .experience .timeline .content {
+    padding-bottom: 20px; }
+    .experience .timeline .content h3 {
+      padding: 0;
+      margin: 0;
+      font-weight: 600;
+      font-size: 15px; }
+    .experience .timeline .content .time {
+      color: #ccc;
+      font-size: 14px;
+      margin-top: 10px; }
+  .experience .timeline ul {
+    margin: 0;
+    padding: 0; }
+    .experience .timeline ul li {
+      box-sizing: border-box;
+      position: relative;
+      width: 50%;
+      padding: 15px 40px;
+      padding-top: 0; }
+      .experience .timeline ul li:nth-child(odd) {
+        float: left;
+        text-align: right;
+        clear: both; }
+        .experience .timeline ul li:nth-child(odd):before {
+          content: '';
+          position: absolute;
+          width: 12px;
+          height: 12px;
+          background: #25b7a4;
+          right: -7px;
+          top: 4px;
+          border-radius: 50%; }
+      .experience .timeline ul li:nth-child(even) {
+        text-align: left;
+        float: right;
+        clear: both; }
+        .experience .timeline ul li:nth-child(even):before {
+          content: '';
+          position: absolute;
+          width: 12px;
+          height: 12px;
+          background: #25b7a4;
+          left: -5px;
+          top: 4px;
+          border-radius: 50%; }
+
+@media (max-width: 1024px) {
+  .experience .timeline {
+    width: 100%; } }
+
+@media (max-width: 768px) {
+  .experience .timeline {
+    width: 100%;
+    padding-bottom: 0; }
+    .experience .timeline:before {
+      left: 20px; }
+    .experience .timeline ul li:nth-child(even), .experience .timeline ul li:nth-child(odd) {
+      width: 100%;
+      text-align: left;
+      padding-left: 50px;
+      padding-bottom: 30px; }
+      .experience .timeline ul li:nth-child(even):before, .experience .timeline ul li:nth-child(odd):before {
+        left: 16px; } }
